@@ -1,5 +1,7 @@
 ## How sexists are movies ?
 
+AK proposition: (How / How much) Are movies subdued to gender diktats/stereotypes? 
+
 ### Abstract
 
 "If [Marilyn Monroe] still fascinates us so much, it is because her story echoes the diktat that continues to mark out women's lives in a world controlled by the male gaze.”
