@@ -1,6 +1,4 @@
-## How sexists are movies ?
-
-AK proposition: (How / How much) Are movies subdued to gender diktats/stereotypes?
+## How much are movies subdued to gender stereotypes?
 
 ### Abstract
 
@@ -50,9 +48,9 @@ _The subsets are built later on during step 2_
 
 Dataset MGC: movie genre dataset containing info for each movie: release date, box office revenue, runtime, country of origin, as well as main topics extracted from the summary(?). Subsets based on movie genre, to later answer question D.
 
-Dataset CC: characters characteristics dataset, containing … question E
+Dataset CC: characters characteristics dataset, using the Core-NLP dataset, to further answer question E
 
-Dataset AC: actors characteristics … question F
+Dataset AC: actors characteristics, containing their name, date of birth, age at movie release, height, ethnicity, and actor ID, to answer question F
 
 **Step 2: Investigate gender parity features in movies** based on dataset GP and create its subsets (so regarding countries, movie genres and box office revenue)
 
@@ -93,8 +91,5 @@ NB : steps 2,3,4 and 5 can be done in parallel
 | December 3. - December 11.  | Step 4 & 5 : studying the characteristics of each gender through the words associated with them          | Step 4 & 5 : studying the characteristics of each gender through the words associated with them       | Step 4 & 5 : studying the characteristics of each gender through the words associated with them | Steps 2 and 3: investigation on gender parity features and the evolution of movie genres characteristics |
 | December 12. - December 20. | Redaction of datastory, Visualisation using external softwares and websites                              | Step 8 : building the website       | Step 8 : building the website                                                                   | Redaction of datastory, Visualisation using external softwares and websites                              |
 
-We also decided to work in pair / in a circle format to review each other’s parts at each step: …
+We also decided to work in pair to review each other’s parts at each step. Therefore, 
 
-### Questions for TAs
-
-...
