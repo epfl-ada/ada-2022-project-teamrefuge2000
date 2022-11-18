@@ -31,13 +31,11 @@ AD1 : [Stanford CoreNLP-processed Summaries](http://www.cs.cmu.edu/~ark/personas
 
 ### Methods
 
-Data storage : additional dataset is heavy ..?
-
 **Step 0: Preliminary analysis for Milestone 2.** Initial analyses on our unprocessed datasets to see if our research questions are relevant. 
 
 **Step 1: Data scraping, pre-processing and dataset construction.**
 
-Pre-processing of the CoreNLP dataset: explicitation of the ethnicity, …
+Pre-processing of the data set: We first want to clean the data, map the freebase ids to their real names, which will be more simple for us to handle. We then want to proceed as in the paper, constructing for every character a set of words associated with it in the plot summaries (constructing a bag (*w*, *r*)  with word lemmas *w* and *r* belonging to {agent, patient, attribute}). With this, we can already work to find some features, as for example the average number of bags associated with each gender, what word lemmas are more prevalent (if any are), etc... 
 
 Construction of datasets: 
 
@@ -49,7 +47,7 @@ GP2: subsets by movie genre (to later answer question B)
 
 GP3: subsets by box office revenue (to later answer question C)
 
-*The subsets are built later on during step 2 (?)*
+*The subsets are built later on during step 2*
 
 Dataset MGC: movie genre dataset containing info for each movie: release date, box office revenue, runtime, country of origin, as well as main topics extracted from the summary(?). Subsets based on movie genre, to later answer question D. 
 
@@ -57,13 +55,13 @@ Dataset CC: characters characteristics dataset, containing … question E
 
 Dataset AC: actors characteristics … question F
 
-**Step 2:** **Investigate gender parity features in movies** based on dataset GP and create its subsets (so regarding countries, movie genres and box office revenue)
+**Step 2: Investigate gender parity features in movies** based on dataset GP and create its subsets (so regarding countries, movie genres and box office revenue)
 
 **Step 3: Investigate the evolution of movie genres characteristics across time** using MGC dataset
 
-**Step 4:** **Characters characteristics** … cf Milou “We then want to build personas for each of the characters as discussed in the paper. That will help us analyze the typical persona of each gender, and how various each are. We can also compare box office revenue with the presence/absence of the personas, and draw conclusions with those results.”
+**Step 4: Characters characteristics** build the personas for each of the characters as discussed in the paper. That will help us analyze the typical persona of each gender, and how various each are. If it is too complicated, we can also just compare the lemmas associated with each character and compare it according to their gender, giving us already an idea.
 
-**Step 5:** Actors characteristics … cf Milou?
+**Step 5: Actors characteristics** More or less the same as step 4, but for actors rather than characters, to see if actors and actresses typically fall in a certain category of roles.
 
 NB : steps 2,3,4 and 5 can be done in parallel 
 
@@ -73,17 +71,6 @@ NB : steps 2,3,4 and 5 can be done in parallel
 
 **Step 8: website building, GitHub repository update and redaction of data story.**
 
-### PARTIE DE MILOU A INCLURE AU DESSUS Preprocessing (21/11 - 27/11)
-
-We first want to clean the data and create the datasets we will use during the project. We want to proceed as in the paper, constructing for every character a set of words associated with it in the plot summaries (constructing a bag (*w*, *r*)  with word lemmas *w* and *r* belonging to {agent, patient, attribute}). With this, we can already work to find some features, as for example the average number of bags associated with each gender, what word lemmas are more prevalent (if any are), etc... 
-
-#### Building personas (28/11 - 11/12)
-
-We then want to build personas for each of the characters as discussed in the paper. That will help us analyze the typical persona of each gender, and how various each are. We can also compare box office revenue with the presence/absence of the personas, and draw conclusions with those results. 
-
-#### Creating the website (12/12 - 23/12)
-
-We will build the website then, or at least the shell of it, and start plotting the results we already have. From the preprocessed data we already have, we can already answer questions about gender parity across the countries and through time. We can also see how the typical personas have evolved throughout the years, and how well films have performed based on their gender parity.
 
 ### Timeline
 | Period | Description |
@@ -103,9 +90,9 @@ We will build the website then, or at least the shell of it, and start plotting 
 
 | Period | Augustin | Maxime | Émilien  | Albane |
 | --- | --- | --- | --- | --- |
-| November 21. - November 27. |  |  |  | Step 1: Construction of dataset GP |
-| December 3. - December 11. |  |  |  | Steps 2 and 3: investigation on gender parity features and the evolution of movie genres characteristics |
-| December 12. - December 20.  |  |  |  | Redaction of datastory, Visualisation using external softwares and websites |
+| November 21. - November 27. |  |  | Step 1 : Construction of dataset GP | Step 1: Construction of dataset GP |
+| December 3. - December 11. |  |  | Step 4 & 5 : studying the characteristics of each gender through the words associated with them | Steps 2 and 3: investigation on gender parity features and the evolution of movie genres characteristics |
+| December 12. - December 20.  |  |  | Step 8 : building the website | Redaction of datastory, Visualisation using external softwares and websites |
 
 We also decided to work in pair / in a circle format to review each other’s parts at each step: … 
 
