@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93203eab-c773-4a72-9db2-b58fe70d5450" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processed_data/name_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../processed_data/name_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processed_data/plot_summaries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../processed_data/plot_summaries.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre-processing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pre-processing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
