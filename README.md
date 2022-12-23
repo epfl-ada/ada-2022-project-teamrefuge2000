@@ -14,13 +14,11 @@ A. what is the gender parity across movie genres (are westerns still as male dom
 
 B. what is the evolution of gender parity in films among countries over time (were some countries avant-garde? Are some still behind on this concept?)
 
-C. Is there a variation in the box office revenue depending on the gender parity? Has it change over the years?
+C. Is there a variation in the box office revenue depending on the gender parity?
 
 D. Is there a variation of the main attributes -agent verbs, patient verbs and attributes- given to each gender across time?
 
 E. Do the mean age of the actors, male and female, evolves over the years? (with the cliché in mind that +40-year-old actresses are “outdated”)
-
-F. Can we built the perfect archetypes of the male and female actor (age, height, ethnicity) over time?
 
 ### Additional datasets
 
