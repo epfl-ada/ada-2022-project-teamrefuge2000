@@ -48,23 +48,20 @@ Dataset MGC: movie genre dataset containing info for each movie: release date, b
 
 Dataset CC: characters characteristics dataset, using the Core-NLP dataset, to further answer question E
 
-Dataset AC: actors characteristics, containing their name, date of birth, age at movie release, height, ethnicity, and actor ID, to answer question F
 
 **Step 2: Investigate gender parity features in movies** based on dataset GP and create its subsets (so regarding countries, movie genres and box office revenue)
 
 **Step 3: Investigate the evolution of movie genres characteristics across time** using MGC dataset
 
-**Step 4: Characters characteristics** build the personas for each of the characters as discussed in the paper. That will help us analyze the typical persona of each gender, and how various each are. If it is too complicated, we can also just compare the lemmas associated with each character and compare it according to their gender, giving us already an idea.
+**Step 4: Characters characteristics** 
 
 **Step 5: Actors characteristics** More or less the same as step 4, but for actors rather than characters, to see if actors and actresses typically fall in a certain category of roles.
 
 NB : steps 2,3,4 and 5 can be done in parallel
 
-**Step 6**: Reflexion on conclusion and discussion, think if coherent of a conclusion figure
+**Step 6**: Reflexion on conclusion and discussion
 
-**Step 7: Visualisation**. export of some of our figures into external websites and softwares, for instance Google Data Studio for the results regarding country of origin.
-
-**Step 8: website building, GitHub repository update and redaction of data story.**
+**Step 7: website building, GitHub repository update and redaction of data story.**
 
 ### Timeline
 
@@ -77,7 +74,7 @@ NB : steps 2,3,4 and 5 can be done in parallel
 | December 2.                 | Homework 2 Due Date                                                                         |
 | December 3. - December 11.  | Steps 2, 3, 4 & 5: Data processing and analysis                                             |
 | December 12. - December 13. | Step 6: Conclusion and Discussion (Team Meeting)                                            |
-| December 12. - December 20. | Steps 7 & 8: visualisation, website and GitHub repository construction, datastory redaction |
+| December 12. - December 20. | Steps 7: website and GitHub repository construction, datastory redaction |
 | December 20. - December 23. | Final modifications and fixes                                                               |
 | December 23.                | Project Due Date                                                                            |
 
@@ -87,7 +84,7 @@ NB : steps 2,3,4 and 5 can be done in parallel
 | --------------------------- | -------------------------------------------------------------------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | November 21. - November 27. | Step 1: Construction of dataset AC & CC  | Step 1: Construction of dataset AC & CC        | Step 1 : Construction of dataset GP & MGC                                                            | Step 1: Construction of dataset GP & MGC                                                                      |
 | December 3. - December 11.  | Step 4 & 5 : studying the characteristics of each gender through the words associated with them          | Step 4 & 5 : studying the characteristics of each gender through the words associated with them       | Step 4 & 5 : studying the characteristics of each gender through the words associated with them | Steps 2 and 3: investigation on gender parity features and the evolution of movie genres characteristics |
-| December 12. - December 20. | Redaction of datastory, Visualisation using external softwares and websites                              | Step 8 : building the website       | Step 8 : building the website                                                                   | Redaction of datastory, Visualisation using external softwares and websites                              |
+| December 12. - December 20. | Redaction of datastory                             | Step 7 : building the website       | Step 7: building the website                                                                   | Redaction of datastory                             |
 
 We also decided to work in pair to review each other’s parts at each step. Therefore, Emilien and Albane would work together, as well as Augustin and Maxime.
 
