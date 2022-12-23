@@ -1,5 +1,7 @@
 ## How much are movies subdued to gender stereotypes?
 
+The data story [web page](https://hbjugo.github.io/teamrefuge2000_website/).
+
 ### Abstract
 
 "If [Marilyn Monroe] still fascinates us so much, it is because her story echoes the diktat that continues to mark out women's lives in a world controlled by the male gaze.”
@@ -48,12 +50,11 @@ Dataset MGC: movie genre dataset containing info for each movie: release date, b
 
 Dataset CC: characters characteristics dataset, using the Core-NLP dataset, to further answer question E
 
-
 **Step 2: Investigate gender parity features in movies** based on dataset GP and create its subsets (so regarding countries, movie genres and box office revenue)
 
 **Step 3: Investigate the evolution of movie genres characteristics across time** using MGC dataset
 
-**Step 4: Characters characteristics** 
+**Step 4: Characters characteristics**
 
 **Step 5: Actors characteristics** More or less the same as step 4, but for actors rather than characters, to see if actors and actresses typically fall in a certain category of roles.
 
@@ -65,26 +66,25 @@ NB : steps 2,3,4 and 5 can be done in parallel
 
 ### Timeline
 
-| Period                      | Description                                                                                 |
-| --------------------------- | ------------------------------------------------------------------------------------------- |
-| November 5. - November 13.  | Steps 0 & 1: initial analyses and data pre-processing                                       |
-| November 18.                | Milestone 2 Due Date                                                                        |
-| November 21. - November 27. | Finish step 1                                                                               |
-| November 28. - December 2.  | Pause to finish Homework 2                                                                  |
-| December 2.                 | Homework 2 Due Date                                                                         |
-| December 3. - December 11.  | Steps 2, 3, 4 & 5: Data processing and analysis                                             |
-| December 12. - December 13. | Step 6: Conclusion and Discussion (Team Meeting)                                            |
+| Period                      | Description                                                              |
+| --------------------------- | ------------------------------------------------------------------------ |
+| November 5. - November 13.  | Steps 0 & 1: initial analyses and data pre-processing                    |
+| November 18.                | Milestone 2 Due Date                                                     |
+| November 21. - November 27. | Finish step 1                                                            |
+| November 28. - December 2.  | Pause to finish Homework 2                                               |
+| December 2.                 | Homework 2 Due Date                                                      |
+| December 3. - December 11.  | Steps 2, 3, 4 & 5: Data processing and analysis                          |
+| December 12. - December 13. | Step 6: Conclusion and Discussion (Team Meeting)                         |
 | December 12. - December 20. | Steps 7: website and GitHub repository construction, datastory redaction |
-| December 20. - December 23. | Final modifications and fixes                                                               |
-| December 23.                | Project Due Date                                                                            |
+| December 20. - December 23. | Final modifications and fixes                                            |
+| December 23.                | Project Due Date                                                         |
 
 ### Organization within the team
 
-| Period                      | Augustin                                                                                                 | Maxime | Émilien                                                                                         | Albane                                                                                                   |
-| --------------------------- | -------------------------------------------------------------------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| November 21. - November 27. | Step 1: Construction of dataset AC & CC  | Step 1: Construction of dataset AC & CC        | Step 1 : Construction of dataset GP & MGC                                                            | Step 1: Construction of dataset GP & MGC                                                                      |
-| December 3. - December 11.  | Step 4 & 5 : studying the characteristics of each gender through the words associated with them          | Step 4 & 5 : studying the characteristics of each gender through the words associated with them       | Step 4 & 5 : studying the characteristics of each gender through the words associated with them | Steps 2 and 3: investigation on gender parity features and the evolution of movie genres characteristics |
-| December 12. - December 20. | Redaction of datastory                             | Step 7 : building the website       | Step 7: building the website                                                                   | Redaction of datastory                             |
+| Period                      | Augustin                                                                                        | Maxime                                                                                          | Émilien                                                                                         | Albane                                                                                                   |
+| --------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| November 21. - November 27. | Step 1: Construction of dataset AC & CC                                                         | Step 1: Construction of dataset AC & CC                                                         | Step 1 : Construction of dataset GP & MGC                                                       | Step 1: Construction of dataset GP & MGC                                                                 |
+| December 3. - December 11.  | Step 4 & 5 : studying the characteristics of each gender through the words associated with them | Step 4 & 5 : studying the characteristics of each gender through the words associated with them | Step 4 & 5 : studying the characteristics of each gender through the words associated with them | Steps 2 and 3: investigation on gender parity features and the evolution of movie genres characteristics |
+| December 12. - December 20. | Redaction of datastory                                                                          | Step 7 : building the website                                                                   | Step 7: building the website                                                                    | Redaction of datastory                                                                                   |
 
 We also decided to work in pair to review each other’s parts at each step. Therefore, Emilien and Albane would work together, as well as Augustin and Maxime.
-
